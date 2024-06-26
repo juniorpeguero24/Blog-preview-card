@@ -95,3 +95,20 @@ main .blog-container .profile img {
 main .blog-container .profile p {
   margin: 0px 12px;
 }
+
+/* Media */
+@media (max-width: 575.98px) {
+  body {
+    background-color: var(--Yellow);
+  }
+  main .blog-container {
+    background-color: var(--White);
+    max-width: 100%;
+    width: 350px;
+    border: 2px var(--Black) solid;
+    padding: 24px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px var(--Black);
+  }
+}
